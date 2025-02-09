@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batalha Contra o Bot 1</title>
+    <link rel="stylesheet" href="style.css">
+        <style>body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+button {
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: blue; /* Agora todos os botões são azuis */
+    color: white;
+}
+
+button:hover {
+    opacity: 0.8;
+}</style>
+</head>
+<body>
+    <h1>Batalha Contra o Bot 1</h1>
+    <p>Vida do Bot 1: <span id="vidaBot">100</span></p>
+    <p>Moedas: <span id="moedas">0</span></p>
+    <button onclick="atacar()">Atacar (-10 de vida)</button>
+    <button onclick="assistirAnuncio()">Assistir Anúncio (Ganhar Moedas)</button>
+    <button onclick="recrutar()" id="btnRecrutar">Recrutar Bot (15 moedas)</button>
+    
+    <script src="testesla.js"></script>
+</body>
+</html>
